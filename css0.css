@@ -1,0 +1,541 @@
+.Box-body-row {
+    border-top: none;
+}
+
+.Box-body-row--highlight .Box-row-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Box-body-row--highlight.navigation-focus {
+    background-color: #4d4d4d;
+}
+
+.blankslate {
+    background-color: #262626;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    box-shadow: inset 0 0 74px rgba(0, 0, 0, 0.73);
+    padding: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.blob-code-addition .x {
+    background-color: #34f634;
+    color: black;
+}
+
+.blob-code-addition, .blob-num-addition {
+    background-color: #439b43;
+}
+
+.blob-code-deletion .x {
+    background-color: #ff0f0f;
+    color: white;
+}
+
+.blob-code-deletion,.blob-num-deletion {
+    background-color: #a53a3a;
+}
+
+.blob-code-hunk, .blob-code-expandable {
+    background-color: #444444;
+    border: none;
+}
+
+.blob-code-inner {
+    color: #fff;
+    font-size: 14px;
+}
+
+.blob-num-hunk, .blob-num-expandable, .blob-num .blob-num-expandable, td.blob-code.blob-code-expandable {
+    background-color: #444444;
+}
+
+.border-left, .border-bottom, .border-right {
+    border: none;
+}
+
+.border-right.border-bottom.border-left {
+    background-color: #3e3e3e;
+}
+
+.boxed-group .counter {
+    background-color: #404040;
+    color: #fff;
+}
+
+.boxed-group>h3, .boxed-group .heading {
+    background-color: #222;
+}
+
+.boxed-group>h3, .boxed-group .heading, .boxed-group-inner {
+    border: none;
+}
+
+.breadcrumb strong.final-path {
+    color: #ffffff;
+}
+
+.btn-primary {
+    color: #fff;
+    text-shadow: none;
+}
+
+.closed-banner {
+    display: none;
+}
+
+.cm-s-github .CodeMirror-gutters {
+    background: #222;
+}
+
+.cm-s-github.CodeMirror {
+    background: #222;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.code-list .code-list-item+.code-list-item {
+    border-top: none;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.code-list .divider .blob-num, .code-list .divider .blob-code {
+    background-color: #262626;
+    cursor: default;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.code-list .file-box {
+    border: none;
+}
+
+.code-list .language {
+    color: rgb(118, 118, 118);
+}
+
+.codesearch-results .repo-list-name em, .codesearch-results .repo-list-description em,.wiki-list em,.code-list em {
+    background-color: transparent;
+    border-radius: 3px;
+    color: #ffff63;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.column.three-fourths.codesearch-results {
+    background-color: rgb(36, 41, 46);
+    margin-left: 2%;
+    padding: 25px;
+}
+
+.commit-author-section {
+    color: #7d7d7d;
+}
+
+.commit-comments-heading {
+    margin: 35px 0 0 0;
+}
+
+.commit-desc pre {
+    color: grey;
+}
+
+.commit-desc+.commit-branches {
+    border-top: solid 1px #333333;
+}
+
+.commit-sha {
+    color: black;
+}
+
+.commit-tease {
+    background-color: #222222;
+    border: none;
+    color: #808080;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    width: 80vw;
+}
+
+.container.repohead-details-container {
+    margin-bottom: 30px;
+}
+
+.discussion-item .label-color {
+    background-color: #1f1c38;
+}
+
+.discussion-item-header {
+    color: #ffffff;
+}
+
+.edit-comment-hide {
+    background-color: #262626;
+}
+
+.file {
+    border: 1px solid #000;
+}
+
+.file-diff-split .empty-cell {
+    background-color: #333333;
+    cursor: default;
+}
+
+.file-header {
+    background-color: #222;
+    border: none;
+    color: white;
+}
+
+.file-wrap {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.full-commit {
+    background: #222222;
+    border: none;
+    border-radius: 3px;
+    margin: 40px 0;
+}
+
+.full-commit .commit-meta {
+    background: #444;
+    border: none;
+}
+
+.full-commit .sha-block>.sha {
+    color: #9c9c9c;
+}
+
+.full-commit p.commit-title {
+    color: #6ed1ff;
+    /* font-weight: bold; */
+    font-size: 19px;
+    margin: 0 0 15px;
+}
+
+.gh-header-meta {
+    border-bottom: 1px solid #6a6a6a;
+    color: #cacaca;
+}
+
+.header-logo-invertocat {
+    color: #fff;
+}
+
+.header-nav-link {
+    color: #fff;
+}
+
+.markdown-body .highlight {
+    margin-bottom: 25px;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 6px;
+    margin-top: 40px;
+}
+
+.markdown-body h2 {
+    border-bottom: 1px solid #6a6a6a;
+}
+
+.markdown-body hr {
+    background-color: #616161;
+    height: 0.1em;
+}
+
+.markdown-body table th, .markdown-body table td {
+    border: none;
+    padding: 10px 16px;
+}
+
+.markdown-body table tr {
+    background-color: #2d2d2d;
+    border: none;
+}
+
+.markdown-body table tr:nth-child(2n) {
+    background-color: #1f1f1f;
+}
+
+.overall-summary {
+    border: none ;
+    margin: 0;
+    position: relative ;
+}
+
+.pagehead {
+    margin-bottom: 40px;
+}
+
+.pl-c {
+    color: #4e5d4e;
+}
+
+.pl-c1, .pl-s .pl-v {
+    color: lavender;
+}
+
+.pl-e, .pl-en {
+    color: white;
+}
+
+.pl-k {
+    color: #ff5d51;
+}
+
+.pl-s, .pl-pds, .pl-s .pl-pse .pl-s1, .pl-sr, .pl-sr .pl-cce, .pl-sr .pl-sre, .pl-sr .pl-sra {
+    color: #ffd45c;
+}
+
+.pl-smi, .pl-s .pl-s1 {
+    color: #31c67b;
+}
+
+.preview-content {
+    color: black;
+}
+
+.readme .markdown-body, .readme .plain {
+    background-color: #444;
+    border: none;
+    text-align: justify;
+}
+
+.repo-list-description {
+    color: #fff;
+}
+
+.repo-list-item {
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.repo-list-meta {
+    color: #4b4b4b;
+}
+
+.repo-list-stats {
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.repo-list-stats .repo-list-stat-item {
+    color: #5b5b5b;
+    display: inline-block;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.repository-content a {
+    color: #4f96ff ;
+}
+
+.repository-meta {
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 0 30px;
+}
+
+.site-footer {
+    border-top: 1px solid #6a6a6a;
+}
+
+.stats-switcher-viewport {
+    height: 82px;
+    overflow: hidden;
+}
+
+.table-list-header {
+    background-color: #222;
+    border: none;
+    border-radius: 3px 3px 0 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.text-gray-dark {
+    color: #a6a6a6 ;
+}
+
+.thread-subscription-status {
+    background-color: transparent;
+    border: none;
+    color: #767676;
+}
+
+.three-fourths {
+    width: 73%;
+}
+
+.timeline-comment-wrapper.js-comment-container {
+    border: none;
+}
+
+.timeline-comment-wrapper.timeline-new-comment.js-comment-container {
+    border: none;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+.wiki-wrapper .wiki-auxiliary-content {
+    background: #262626;
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.06); */
+}
+
+.wiki-wrapper hr {
+    margin: 40px 0;
+}
+
+a.btn {
+    color: white;
+}
+
+a.btn.btn-sm {
+    color: black ;
+}
+
+a.css-truncate-target.js-notification-target.js-navigation-open.list-group-item-link {
+    color: black;
+}
+
+a.label.label-link {
+    color: black;
+    font-weight: lighter;
+}
+
+body {
+    background-color: #2f363c;
+    color: #fff;
+}
+
+div.header.header-logged-in.true {
+    background-color: #262626;
+}
+
+p a, nav a,ul.site-footer-links a {
+    color: #358dff;
+}
+
+pre {
+    background-color: #222;
+    color: white;
+}
+
+span.blob-code-inner {
+    color: white;
+}
+
+span.label-color>a, .css-truncate.css-truncate-target, .css-truncate .css-truncate-target {
+    color: black;
+}
+
+span.lang {
+    color: white;
+}
+
+span.num.text-emphasized,.numbers-summary .octicon {
+    color: white;
+}
+
+span.timeline-comment-label {
+    background-color: #262626;
+    color: white;
+}
+
+span.timeline-comment-label.member-comment.tooltipped.tooltipped-multiline.tooltipped-s {
+    border: none;
+}
+
+strong {
+    font-weight: 400;
+}
+
+table.files {
+    background: #282828;
+}
+
+table.files td {
+    border-top: none;
+}
+
+table.files td.age {
+    padding-right: 20px;
+}
+
+table.files td.icon {
+    color: #bbb;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+table.files td.message a, .commit-tease>a.message {
+    color: #888;
+}
+
+table.files tr.navigation-focus td {
+    background: #3a3a3a;
+}
+
+table.highlight {
+    background-color: #262626;
+}
+
+td.blob-code.blob-code-inner.blob-code-hunk {
+    color: white;
+}
+
+td.blob-num {
+    border: none;
+    color: #eee;
+    font-size: 14px;
+}
+
+textarea#commit-description-textarea {
+    color: white;
+}
+
+thead {
+    display: none;
+}
+
+time-ago {
+    color: white;
+}
+
+strong.user-select-contain.gist-blob-name.css-truncate-target {
+    color: white;
+}
+
+.copyable-terminal.js-zeroclipboard-container {
+    position: relative;
+    padding: 40px 55px 10px 10px;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+pre.copyable-terminal-content.js-zeroclipboard-target {
+    padding: 16px;
+}
+
+.outline-box.outline-box-highlighted.empty-repo-setup-option h3,.outline-box.outline-box-highlighted.empty-repo-setup-option p {
+    color: black;
+}
+
