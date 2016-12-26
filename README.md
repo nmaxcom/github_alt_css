@@ -1,4 +1,4 @@
-# github_alt_css
+# github_dark_css
 Dark CSS style for github (for Stylebot or others)
 
 ## TODO
